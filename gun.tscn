@@ -24,5 +24,12 @@ rotation = -0.155458
 texture = ExtResource("1_pd3y8")
 
 [node name="ShootingPoint" type="Marker2D" parent="WeaponPivot/Pistol"]
+unique_name_in_owner = true
 position = Vector2(25.7701, -12.486)
 rotation = 0.00486173
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.3
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
