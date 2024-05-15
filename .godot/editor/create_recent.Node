@@ -1,3 +1,6 @@
+CollisionShape2D
+Sprite2D
+Area2D
 Camera2D
 Label
 ColorRect
@@ -6,8 +9,6 @@ Timer
 PathFollow2D
 Path2D
 ProgressBar
-CollisionShape2D
-Area2D
 Marker2D
 CharacterBody2D
 StaticBody2D
