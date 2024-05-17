@@ -1,8 +1,5 @@
 res://survivors_game.tscn
-res://survivors_game.gd
+res://group_outline.gdshader
 res://mob.tscn
-res://gun.tscn
-res://characters/slime/slime.tscn
-res://bullet.tscn
 res://player.tscn
-res://mob.gd
+res://chest.tscn
