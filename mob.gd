@@ -15,6 +15,7 @@ func _physics_process(delta):
 func take_damage():
 	health -= 1
 	%Slime.play_hurt()
+	%ProgressBar.value -= 1
 	
 	if health == 0: 
 		queue_free()

@@ -26,6 +26,7 @@ corner_radius_bottom_left = 8
 
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(-1, 1)
+platform_floor_layers = 4294967040
 script = ExtResource("1_fbf5h")
 
 [node name="HappyBoo" parent="." instance=ExtResource("1_ws0ur")]
