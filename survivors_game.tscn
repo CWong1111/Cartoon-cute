@@ -1,9 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://it25lohfiog4"]
+[gd_scene load_steps=6 format=3 uid="uid://it25lohfiog4"]
 
 [ext_resource type="Script" path="res://survivors_game.gd" id="1_7qmao"]
 [ext_resource type="PackedScene" uid="uid://dmll6g3vg5tsy" path="res://player.tscn" id="1_c5cs6"]
 [ext_resource type="PackedScene" uid="uid://c7id0nb8ush7c" path="res://pine_tree.tscn" id="2_s7ipj"]
-[ext_resource type="PackedScene" uid="uid://dckgpt6plkhol" path="res://chest.tscn" id="4_cqm8r"]
 
 [sub_resource type="Curve2D" id="Curve2D_uf50s"]
 _data = {
@@ -104,9 +103,6 @@ text = "Game Over "
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource("CircleShape2D_8xrbn")
-
-[node name="Chest" parent="." instance=ExtResource("4_cqm8r")]
-position = Vector2(504, 550)
 
 [connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
