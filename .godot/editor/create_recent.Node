@@ -1,3 +1,8 @@
+CenterContainer
+Button
+VBoxContainer
+MarginContainer
+Control
 CollisionShape2D
 Sprite2D
 Area2D
@@ -7,8 +12,3 @@ ColorRect
 CanvasLayer
 Timer
 PathFollow2D
-Path2D
-ProgressBar
-Marker2D
-CharacterBody2D
-StaticBody2D
