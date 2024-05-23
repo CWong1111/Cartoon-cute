@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://it25lohfiog4"]
+[gd_scene load_steps=8 format=3 uid="uid://it25lohfiog4"]
 
 [ext_resource type="Script" path="res://survivors_game.gd" id="1_7qmao"]
 [ext_resource type="PackedScene" uid="uid://dmll6g3vg5tsy" path="res://player.tscn" id="1_c5cs6"]
@@ -10,6 +10,19 @@ _data = {
 }
 point_count = 6
 
+[sub_resource type="Animation" id="Animation_e6hvo"]
+resource_name = "countdown"
+length = 3.2
+
+[sub_resource type="Animation" id="Animation_lfyam"]
+length = 0.001
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_n186u"]
+_data = {
+"RESET": SubResource("Animation_lfyam"),
+"countdown": SubResource("Animation_e6hvo")
+}
+
 [node name="Game" type="Node2D"]
 y_sort_enabled = true
 script = ExtResource("1_7qmao")
@@ -20,6 +33,18 @@ layer = -30
 [node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
 offset_right = 1916.0
 offset_bottom = 1076.0
+
+[node name="LevelTimerLabel" type="Label" parent="CanvasLayer"]
+unique_name_in_owner = true
+modulate = Color(0, 0, 0, 1)
+self_modulate = Color(0, 0, 0, 1)
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 184.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 100
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Player" parent="." instance=ExtResource("1_c5cs6")]
 position = Vector2(907, 472)
@@ -96,6 +121,11 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 200
 text = "Game Over "
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_n186u")
+}
 
 [connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
