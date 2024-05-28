@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1716930638
-701610__seth_makes_sounds__fun-cute-simple-song.wav::AudioStreamWAV::1730263939578076210::1716930638::1716930639::1::::<><>::
+::res://::1716931950
+436164__dersuperanton__well-done-mouse-squirrel-cartoon.wav::AudioStreamWAV::6712922306109151108::1716931950::1716931950::1::::<><>::
+701610__seth_makes_sounds__fun-cute-simple-song.wav::AudioStreamWAV::-1::1716931473::1716931473::1::::<><>::
 bullet.gd::GDScript::-1::1715982796::0::1::::<>Area2D<>::
 bullet.tscn::PackedScene::576821781803876122::1715982612::0::1::::<><>::res://bullet.gd<>uid://dftkbqwsfd68r::::res://pistol/projectile.png
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1695668179::0::1::::<><>::
@@ -12,9 +13,10 @@ mob.gd::GDScript::-1::1715983451::0::1::::<>CharacterBody2D<>::
 mob.tscn::PackedScene::3001533874004441501::1716494586::0::1::::<><>::uid://ogik4s70pgwl::::res://characters/slime/slime.tscn<>res://mob.gd
 pine_tree.tscn::PackedScene::7035626867536807054::1715636321::0::1::::<><>::uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://caqfk2xng5v5u::::res://trees/pine_tree.png
 player.gd::GDScript::-1::1715720436::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::8024959935919820344::1716930223::0::1::::<><>::res://player.gd<>uid://pbmyh1qru7p::::res://characters/happy_boo.tscn<>uid://d1qwusp6n060m::::res://gun.tscn
-survivors_game.gd::GDScript::-1::1716930572::0::1::::<>Node2D<>::
-survivors_game.tscn::PackedScene::602427458762410129::1716930223::0::1::::<><>::res://survivors_game.gd<>uid://dmll6g3vg5tsy::::res://player.tscn<>uid://c7id0nb8ush7c::::res://pine_tree.tscn
+player.tscn::PackedScene::8024959935919820344::1716931702::0::1::::<><>::res://player.gd<>uid://pbmyh1qru7p::::res://characters/happy_boo.tscn<>uid://d1qwusp6n060m::::res://gun.tscn
+group_outline.gdshader::Shader::-1::1716931702::0::1::::<><>::
+survivors_game.gd::GDScript::-1::1716931539::0::1::::<>Node2D<>::
+survivors_game.tscn::PackedScene::602427458762410129::1716931702::0::1::::<><>::res://survivors_game.gd<>uid://dmll6g3vg5tsy::::res://player.tscn<>uid://c7id0nb8ush7c::::res://pine_tree.tscn<>res://701610__seth_makes_sounds__fun-cute-simple-song.wav
 ::res://addons/::1695668179
 ::res://addons/colorpicker_presets/::1695668179
 colorpicker_presets.gd::GDScript::-1::1695668179::0::1::::<>EditorPlugin<>::

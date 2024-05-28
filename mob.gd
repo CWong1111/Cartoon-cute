@@ -19,6 +19,7 @@ func take_damage():
 	
 	if health == 0: 
 		queue_free()
+		$AudioStreamPlayer2D.play()
 		
 		const SMOKE_SCENE = preload("res://smoke_explosion/smoke_explosion.tscn")
 		var smoke = SMOKE_SCENE.instantiate()
