@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://bi073a8il0kb2"]
+[gd_scene load_steps=7 format=3 uid="uid://bi073a8il0kb2"]
 
 [ext_resource type="PackedScene" uid="uid://ogik4s70pgwl" path="res://characters/slime/slime.tscn" id="1_faxwx"]
 [ext_resource type="Script" path="res://mob.gd" id="1_nyrl4"]
+[ext_resource type="AudioStream" uid="uid://c060luid0wggf" path="res://436164__dersuperanton__well-done-mouse-squirrel-cartoon.wav" id="3_r61ra"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_c40vx"]
 radius = 55.0
@@ -36,3 +37,7 @@ theme_override_styles/fill = SubResource("StyleBoxFlat_8gn5a")
 max_value = 3.0
 value = 3.0
 show_percentage = false
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_r61ra")
+autoplay = true

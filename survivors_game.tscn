@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://it25lohfiog4"]
+[gd_scene load_steps=9 format=3 uid="uid://it25lohfiog4"]
 
 [ext_resource type="Script" path="res://survivors_game.gd" id="1_7qmao"]
 [ext_resource type="PackedScene" uid="uid://dmll6g3vg5tsy" path="res://player.tscn" id="1_c5cs6"]
 [ext_resource type="PackedScene" uid="uid://c7id0nb8ush7c" path="res://pine_tree.tscn" id="2_s7ipj"]
+[ext_resource type="AudioStream" uid="uid://ceryrwllkiu1y" path="res://701610__seth_makes_sounds__fun-cute-simple-song.wav" id="4_5e67f"]
 
 [sub_resource type="Curve2D" id="Curve2D_uf50s"]
 _data = {
@@ -126,6 +127,10 @@ text = "Game Over "
 libraries = {
 "": SubResource("AnimationLibrary_n186u")
 }
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_5e67f")
+autoplay = true
 
 [connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

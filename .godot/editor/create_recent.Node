@@ -1,3 +1,4 @@
+AudioStreamPlayer2D
 Label
 AnimationPlayer
 CenterContainer
@@ -11,4 +12,3 @@ Timer
 PathFollow2D
 Path2D
 ProgressBar
-Marker2D
