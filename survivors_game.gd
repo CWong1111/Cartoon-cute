@@ -1,6 +1,6 @@
 extends Node2D
 
-@onready var level_timer_label = %LevelTimerLabel
+@onready var level_timer_label = $GameOver/ColorRect/Label
 
 var level_timer = 0.0
 var start_level_msec = 0.0
