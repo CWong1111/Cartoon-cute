@@ -10,12 +10,12 @@ _data = {
 }
 point_count = 6
 
+[sub_resource type="Animation" id="Animation_lfyam"]
+length = 0.001
+
 [sub_resource type="Animation" id="Animation_e6hvo"]
 resource_name = "countdown"
 length = 3.2
-
-[sub_resource type="Animation" id="Animation_lfyam"]
-length = 0.001
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_n186u"]
 _data = {
