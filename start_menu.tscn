@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 [gd_scene load_steps=2 format=3 uid="uid://c7y73i1jcss0o"]
+=======
+[gd_scene load_steps=2 format=3 uid="uid://cjj73wrb0ytgu"]
+>>>>>>> Stashed changes
 
 [ext_resource type="Script" path="res://start_menu.gd" id="1_q3ly5"]
 

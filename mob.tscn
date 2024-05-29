@@ -2,6 +2,10 @@
 
 [ext_resource type="PackedScene" uid="uid://ogik4s70pgwl" path="res://characters/slime/slime.tscn" id="1_faxwx"]
 [ext_resource type="Script" path="res://mob.gd" id="1_nyrl4"]
+<<<<<<< Updated upstream
+=======
+[ext_resource type="AudioStream" path="res://436164__dersuperanton__well-done-mouse-squirrel-cartoon.wav" id="3_oxvna"]
+>>>>>>> Stashed changes
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_c40vx"]
 radius = 55.0

@@ -1,5 +1,12 @@
 res://start_menu.tscn
 res://group_outline.gdshader
+<<<<<<< Updated upstream
 res://survivors_game.tscn
 res://mob.tscn
 res://player.tscn
+=======
+res://survivors_game.gd
+res://player.tscn
+res://mob.tscn
+res://start_menu.tscn
+>>>>>>> Stashed changes
