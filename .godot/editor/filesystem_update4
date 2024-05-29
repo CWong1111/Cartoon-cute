@@ -4,3 +4,5 @@ res://survivors_game.tscn
 res://player.tscn
 res://mob.tscn
 res://start_menu.gd
+res://level_transition.tscn
+res://level_transition.gd

@@ -79,6 +79,10 @@ run/main_scene="res://start_menu.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.png"
 
+[autoload]
+
+LevelTransition="*res://level_transition.gd"
+
 [display]
 
 window/size/viewport_width=1920
