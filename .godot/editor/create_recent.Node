@@ -1,7 +1,10 @@
+Button
+VBoxContainer
+CenterContainer
+MarginContainer
 AudioStreamPlayer2D
 Label
 AnimationPlayer
-CenterContainer
 CanvasLayer
 CollisionShape2D
 Sprite2D
@@ -9,6 +12,3 @@ Area2D
 Camera2D
 ColorRect
 Timer
-PathFollow2D
-Path2D
-ProgressBar
