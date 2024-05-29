@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://survivors_game.gd" id="1_7qmao"]
 [ext_resource type="PackedScene" uid="uid://dmll6g3vg5tsy" path="res://player.tscn" id="1_c5cs6"]
 [ext_resource type="PackedScene" uid="uid://c7id0nb8ush7c" path="res://pine_tree.tscn" id="2_s7ipj"]
-[ext_resource type="AudioStream" uid="uid://ceryrwllkiu1y" path="res://701610__seth_makes_sounds__fun-cute-simple-song.wav" id="4_5e67f"]
+[ext_resource type="AudioStream" path="res://701610__seth_makes_sounds__fun-cute-simple-song.wav" id="4_5e67f"]
 
 [sub_resource type="Curve2D" id="Curve2D_uf50s"]
 _data = {
