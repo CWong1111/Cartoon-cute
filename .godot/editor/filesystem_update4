@@ -2,3 +2,4 @@ res://survivors_game.tscn
 res://group_outline.gdshader
 res://player.tscn
 res://mob.tscn
+res://survivors_game.gd
